@@ -2,13 +2,13 @@
 **It will help us to create hight-quality package together.**
 
 # React native version upper
-Increase `major`, `minor` or `patch` part of the version and build number in your app in package.json and in ios and android projects with one command.
+Increase `major`, `minor` or `patch` part of the version or `build` number in your app in package.json and in ios and android projects with one command.
 ```
 node ./node_modules/react-native-version-up/index.js --patch -m 'commit message'
 ```
 
 With this script you can:
-- Increase `major`, `minor` or `patch` part in the version.
+- Increase `major`, `minor` or `patch` part in the version or `build` number.
 - Make a git commit with version changes.
 - Make a git tag with new version.
 
@@ -19,28 +19,32 @@ $ node ./node_modules/react-native-version-up/index.js "--patch"
 
 I'm going to increase the version in:
   - package.json (./package.json);
-  - ios project (./ios/happinesstracker/Info.plist);
+  - ios project (./ios/packagename.xcodeproj/project.pbxproj);
   - android project (./android/app/build.gradle).
 
 The version will be changed:
-  - from: 0.2.2 (9);
-  - to:   0.2.3 (10).
+  - on iOS
+    - from: 1.4.1 (6);
+    - to:   1.4.2 (1).
+  - on android
+    - from: 1.4.1 (30);
+    - to:   1.4.2 (31).
 
-Use "0.2.3" as the next version? [y/n] y
+Use "1.4.2" as the next version? [y/n] y
 
 Updating versions
   Updating version in package.json...
     Version in package.json changed.
   Updating version in xcode project...
-    Version and build number in ios project (plist file) changed.
+    Version and build number in ios project (pbxproj file) changed.
   Updating version in android project...
     Version and build number in android project (gradle file) changed.
 
 I'm ready to cooperate with the git!
   I want to make a commit with message:
-    "release 0.2.3: increase versions and build numbers"
+    "release 1.4.2: increase versions and build numbers"
   I want to add a tag:
-    "v0.2.3" -m "release 0.2.3: increase versions and build numbers"
+    "v1.4.2"
   Do you allow me to do this? [y/n] y
   Commit with files added. Run "git push".
 
@@ -105,7 +109,8 @@ yarn version:up --flag value
 | **`--major`** | `flag` | | Increase `major` version:<br/>**0**.0.0 -> **1**.0.0 |
 | **`--minor`** | `flag` | | Increase `minor` version:<br/>0.**0**.0 -> 0.**1**.0 |
 | **`--patch`** | `flag` | | Increase `patch` version:<br/>0.0.**0** -> 0.0.**1** |
+| **`--build`** | `flag` | | Increase `build` number:<br/>0.0.0(**1**) -> 0.0.0(**2**) |
 | **`--message` or `-m`** | `string` | `"release ${version}: increase versions and build numbers"` | Custom commit message. |
 | **`--pathToPackage './path'`** | `string` | `./package.json` | Path to `package.json` file in your project. |
-| **`--pathToPlist './path'`** | `string` | `./ios/${package.name}/Info.plist` | Path to `Info.plist` file (ios project). |
+| **`--pathToPbxproj './path'`** | `string` | `./ios/${package.name}.xcodeproj/project.pbxproj` | Path to `project.pbxproj` file (ios project). |
 | **`--pathToGradle './path'`** | `string` | `./android/app/build.gradle` | Path to `build.gradle` file (android project). |
