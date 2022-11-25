@@ -7,12 +7,12 @@ const helpers = require('./lib/helpers');
 const log = require('./lib/log');
 
 
-const pathToRoot = process.cwd();
-const pathToPackage = argv.pathToPackage || `${pathToRoot}/package.json`;
+const pathToRoot: string = process.cwd();
+const pathToPackage: string = argv.pathToPackage || `${pathToRoot}/package.json`;
 const info = helpers.getPackageInfo(pathToPackage);
 
-const pathToPbxproj = argv.pathToPbxproj || `${pathToRoot}/ios/${info.name}.xcodeproj/project.pbxproj`;
-const pathToGradle = argv.pathToGradle || `${pathToRoot}/android/app/build.gradle`;
+const pathToPbxproj: string = argv.pathToPbxproj || `${pathToRoot}/ios/${info.name}.xcodeproj/project.pbxproj`;
+const pathToGradle: string = argv.pathToGradle || `${pathToRoot}/android/app/build.gradle`;
 
 // getting next version
 const versionCurrent = info.version;
