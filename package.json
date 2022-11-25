@@ -1,6 +1,6 @@
 {
   "name": "@gdulik/react-native-version-up",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Increase version and build number in your react native app for package.json and both platforms (ios && android) with one command",
   "main": "index.js",
   "scripts": {
