@@ -1,0 +1,23 @@
+# Original source codes
+src
+
+# Hooks
+.husky
+
+# Node-Gyp build
+build
+
+# Tests
+tests
+
+# Testing files
+files
+
+# Development only files
+.editorconfig
+.eslintignore
+.eslintrc.js
+.prettierignore
+.prettier.json
+tsconfig.json
+tsconfig.test.json
