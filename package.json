@@ -24,6 +24,7 @@
     "yargs": "8.0.2"
   },
   "devDependencies": {
+    "typescript": "4.9.3",
     "yarn": "1.22.0"
   }
 }
