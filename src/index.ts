@@ -55,7 +55,7 @@ if (version === versionCurrent && (iosBuild === iosBuildCurrent || androidBuild 
 }
 
 
-const chain = new Promise((resolve, reject) => {
+const chain = new Promise<void>((resolve, reject) => {
   log.line();
 
   if (versions.length !== 3) {
