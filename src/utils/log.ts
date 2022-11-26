@@ -2,7 +2,7 @@
 
 const chalk = require('chalk');
 
-module.exports = {
+const log = {
 
   echo(message: string, level = 0, wrapper: any = null, asString = false) {
     let output;
@@ -44,3 +44,5 @@ module.exports = {
     return this.echo('', 0, null, asString);
   }
 };
+
+export default log;

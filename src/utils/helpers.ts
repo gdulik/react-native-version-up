@@ -3,7 +3,7 @@
 const fs = require('fs');
 const exec = require('child_process').exec;
 
-module.exports = {
+const helpers = {
   versions(raw: string) {
     return typeof raw === 'string'
       ? raw.split('.') : [];
@@ -85,3 +85,5 @@ module.exports = {
     });
   }
 };
+
+export default helpers;
