@@ -1,14 +1,11 @@
-'use strict';
-
-const chalk = require('chalk');
+import colorize, { COLORS } from "./colorize";
 
 const log = {
-
-  echo(message: string, level = 0, wrapper: any = null, asString = false) {
+  echo(message: string, level = 0, color: COLORS | null = null, asString = false) {
     let output;
     if (typeof message === 'string') {
       const string = '  '.repeat(level) + message;
-      output = wrapper ? wrapper(string) : string;
+      output = color ? colorize(string, color) : string;
     } else {
       output = message;
     }
@@ -21,27 +18,27 @@ const log = {
   },
 
   error(message: string, level = 0, asString = false) {
-    return this.echo(message, level, chalk.red, asString);
+    return log.echo(message, level, COLORS.red, asString);
   },
 
   success(message: string, level = 0, asString = false) {
-    return this.echo(message, level, chalk.green, asString);
+    return log.echo(message, level, COLORS.green, asString);
   },
 
   warning(message: string, level = 0, asString = false) {
-    return this.echo(message, level, chalk.yellow, asString);
+    return log.echo(message, level, COLORS.yellow, asString);
   },
 
   notice(message: string, level = 0, asString = false) {
-    return this.echo(message, level, chalk.blue, asString);
+    return log.echo(message, level, COLORS.blue, asString);
   },
 
   info(message: string, level = 0, asString = false) {
-    return this.echo(message, level, null, asString);
+    return log.echo(message, level, null, asString);
   },
 
   line(asString = false) {
-    return this.echo('', 0, null, asString);
+    return log.echo('', 0, null, asString);
   }
 };
 

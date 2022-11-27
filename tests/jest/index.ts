@@ -1,3 +1,4 @@
+import colorize, { COLORS, OPTIONS } from '../../src/utils/colorize';
 import helpers from '../../src/utils/helpers';
 import log from '../../src/utils/log';
 
@@ -115,5 +116,23 @@ describe('Log module', () => {
 
   test('Line log', () => {
     expect(log.line(true)).toBe('')
+  })
+})
+
+describe('Colorize module', () => {
+  test('Only color', () => {
+    expect(colorize('Test message', COLORS.red)).toBe('\u001B[31mTest message\u001B[39m')
+  })
+
+  test('Single option', () => {
+    expect(colorize('Test message', null, [OPTIONS.bold])).toBe('\u001B[1mTest message\u001B[0m')
+  })
+
+  test('Multiple options', () => {
+    expect(colorize('Test message', null, [OPTIONS.bold, OPTIONS.underline])).toBe('\u001B[4m\u001B[1mTest message\u001B[0m')
+  })
+
+  test('Color with option', () => {
+    expect(colorize('Test message', COLORS.red, [OPTIONS.bold])).toBe('\u001B[1m\u001B[31mTest message\u001B[39m\u001B[0m')
   })
 })
