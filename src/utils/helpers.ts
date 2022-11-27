@@ -1,4 +1,4 @@
-import * as fs from 'fs';
+import {writeFileSync, readFileSync} from 'fs';
 const exec = require('child_process').exec;
 
 const helpers = {
@@ -18,11 +18,11 @@ const helpers = {
   },
 
   getPackageInfo(pathToFile: string) {
-    return JSON.parse(fs.readFileSync(pathToFile, 'utf8'));
+    return JSON.parse(readFileSync(pathToFile, 'utf8'));
   },
 
   getBuildNumberFromGradle(pathToGradle: string) {
-    const content = fs.readFileSync(pathToGradle, 'utf8');
+    const content = readFileSync(pathToGradle, 'utf8');
     const match = content.match(/(\s*versionCode\s+["']?)(\d+)(["']?\s*)/);
     if (match && match[2]) {
       return parseInt(match[2]);
@@ -32,7 +32,7 @@ const helpers = {
   },
 
   getBuildNumberFromPbxproj(pathToPbxproj: string) {
-    const content = fs.readFileSync(pathToPbxproj, 'utf8');
+    const content = readFileSync(pathToPbxproj, 'utf8');
     const match = content.match(/(CURRENT_PROJECT_VERSION = )(\d+)/);
     if (match && match[2]) {
       return parseInt(match[2]);
@@ -42,23 +42,23 @@ const helpers = {
   },
 
   changeVersionInPackage(pathToFile: string, version: string) {
-    let packageContent = fs.readFileSync(pathToFile, 'utf8');
+    let packageContent = readFileSync(pathToFile, 'utf8');
     packageContent = packageContent.replace(/("version":\s*")([\d\.]+)(")/g, `$1${version}$3`);
-    fs.writeFileSync(pathToFile, packageContent, 'utf8');
+    writeFileSync(pathToFile, packageContent, 'utf8');
   },
 
   changeVersionAndBuildInPbxproj(pathToFile: string, version: string, build: number) {
-    let content = fs.readFileSync(pathToFile, 'utf8');
+    let content = readFileSync(pathToFile, 'utf8');
     content = content.replace(/(MARKETING_VERSION = )([\d\.]+)/g, `$1${version}`);
     content = content.replace(/(CURRENT_PROJECT_VERSION = )(\d+)/g, `$1${build}`);
-    fs.writeFileSync(pathToFile, content, 'utf8');
+    writeFileSync(pathToFile, content, 'utf8');
   },
 
   changeVersionAndBuildInGradle(pathToFile: string, version: string, build: number) {
-    let content = fs.readFileSync(pathToFile, 'utf8');
+    let content = readFileSync(pathToFile, 'utf8');
     content = content.replace(/(\s*versionName\s+["']?)([\d\.]+)(["']?\s*)/g, `$1${version}$3`);
     content = content.replace(/(\s*versionCode\s+["']?)(\d+)(["']?\s*)/g, `$1${build}$3`);
-    fs.writeFileSync(pathToFile, content, 'utf8');
+    writeFileSync(pathToFile, content, 'utf8');
   },
 
   commitVersionIncrease(version: string, build: number, message: string, pathsToAdd: string[] = []) {
