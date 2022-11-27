@@ -1,5 +1,5 @@
 import {writeFileSync, readFileSync} from 'fs';
-const exec = require('child_process').exec;
+import {exec} from 'child_process';
 
 const helpers = {
   versions(raw: string) {
