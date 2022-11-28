@@ -1,10 +1,10 @@
-import {writeFileSync, readFileSync} from 'fs';
-import {exec} from 'child_process';
+import { writeFileSync, readFileSync } from 'fs';
+import type { ExecException } from 'child_process';
+import { exec } from 'child_process';
 
 const helpers = {
   versions(raw: string) {
-    return typeof raw === 'string'
-      ? raw.split('.') : [];
+    return typeof raw === 'string' ? raw.split('.') : [];
   },
 
   version(raw: string, flag: boolean, reset = false) {
@@ -43,45 +43,53 @@ const helpers = {
 
   changeVersionInPackage(pathToFile: string, version: string) {
     let packageContent = readFileSync(pathToFile, 'utf8');
-    packageContent = packageContent.replace(/("version":\s*")([\d\.]+)(")/g, `$1${version}$3`);
+    packageContent = packageContent.replace(/("version":\s*")([\d.]+)(")/g, `$1${version}$3`);
     writeFileSync(pathToFile, packageContent, 'utf8');
   },
 
   changeVersionAndBuildInPbxproj(pathToFile: string, version: string, build: number) {
     let content = readFileSync(pathToFile, 'utf8');
-    content = content.replace(/(MARKETING_VERSION = )([\d\.]+)/g, `$1${version}`);
+    content = content.replace(/(MARKETING_VERSION = )([\d.]+)/g, `$1${version}`);
     content = content.replace(/(CURRENT_PROJECT_VERSION = )(\d+)/g, `$1${build}`);
     writeFileSync(pathToFile, content, 'utf8');
   },
 
   changeVersionAndBuildInGradle(pathToFile: string, version: string, build: number) {
     let content = readFileSync(pathToFile, 'utf8');
-    content = content.replace(/(\s*versionName\s+["']?)([\d\.]+)(["']?\s*)/g, `$1${version}$3`);
+    content = content.replace(/(\s*versionName\s+["']?)([\d.]+)(["']?\s*)/g, `$1${version}$3`);
     content = content.replace(/(\s*versionCode\s+["']?)(\d+)(["']?\s*)/g, `$1${build}$3`);
     writeFileSync(pathToFile, content, 'utf8');
   },
 
   commitVersionIncrease(version: string, build: number, message: string, pathsToAdd: string[] = []) {
     return new Promise<void>((resolve, reject) => {
-      if(build > 1) {
-        exec(`git add ${pathsToAdd.join(' ')} && git commit -m '${message}' && git tag -a v${version}-${build} -m '${message}'`, (error: any) => {
-          if (error) {
-            reject(error);
-            return;
+      if (build > 1) {
+        exec(
+          `git add ${pathsToAdd.join(
+            ' '
+          )} && git commit -m '${message}' && git tag -a v${version}-${build} -m '${message}'`,
+          (error: ExecException) => {
+            if (error) {
+              reject(error);
+              return;
+            }
+            resolve();
           }
-          resolve();
-        });
+        );
       } else {
-        exec(`git add ${pathsToAdd.join(' ')} && git commit -m '${message}' && git tag -a v${version} -m '${message}'`, (error: any) => {
-          if (error) {
-            reject(error);
-            return;
+        exec(
+          `git add ${pathsToAdd.join(' ')} && git commit -m '${message}' && git tag -a v${version} -m '${message}'`,
+          (error: ExecException) => {
+            if (error) {
+              reject(error);
+              return;
+            }
+            resolve();
           }
-          resolve();
-        });
+        );
       }
     });
-  }
+  },
 };
 
 export default helpers;

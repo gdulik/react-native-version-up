@@ -1,4 +1,4 @@
-import { COLORS } from "./colorize";
+import { COLORS } from './colorize';
 declare const log: {
     echo(message: string, level?: number, color?: COLORS | null, asString?: boolean): string;
     error(message: string, level?: number, asString?: boolean): string;

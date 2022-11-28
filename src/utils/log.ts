@@ -1,4 +1,4 @@
-import colorize, { COLORS } from "./colorize";
+import colorize, { COLORS } from './colorize';
 
 const log = {
   echo(message: string, level = 0, color: COLORS | null = null, asString = false) {
@@ -14,6 +14,7 @@ const log = {
       return output;
     }
 
+    // eslint-disable-next-line no-console
     console.log(output);
   },
 
@@ -39,7 +40,7 @@ const log = {
 
   line(asString = false) {
     return log.echo('', 0, null, asString);
-  }
+  },
 };
 
 export default log;

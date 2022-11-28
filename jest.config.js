@@ -7,4 +7,3 @@ module.exports = {
   testPathIgnorePatterns: ['/node_modules/'],
   testRegex: '.*\\.[jt]s$',
 };
-

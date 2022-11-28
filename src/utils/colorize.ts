@@ -1,4 +1,3 @@
-
 export enum OPTIONS {
   reset = '\u001B[0m',
   bold = '\u001B[1m',
@@ -43,23 +42,23 @@ export enum COLORS {
   bgLightWhite = '\u001B[107m',
 }
 
-const colorize = (message: string, color: COLORS | null, options: OPTIONS[] = [], ): string => {
+const colorize = (message: string, color: COLORS | null, options: OPTIONS[] = []): string => {
   let colorizedMessage = color ? `${color}${message}${COLORS.default}` : message;
 
-  if(options.includes(OPTIONS.bold)) {
-    colorizedMessage = `${OPTIONS.bold}${colorizedMessage}`
+  if (options.includes(OPTIONS.bold)) {
+    colorizedMessage = `${OPTIONS.bold}${colorizedMessage}`;
   }
-  if(options.includes(OPTIONS.underline)) {
-    colorizedMessage = `${OPTIONS.underline}${colorizedMessage}`
+  if (options.includes(OPTIONS.underline)) {
+    colorizedMessage = `${OPTIONS.underline}${colorizedMessage}`;
   }
-  if(options.includes(OPTIONS.reverse)) {
-    colorizedMessage = `${OPTIONS.reverse}${colorizedMessage}`
+  if (options.includes(OPTIONS.reverse)) {
+    colorizedMessage = `${OPTIONS.reverse}${colorizedMessage}`;
   }
-  if(options.length > 0) {
-    colorizedMessage = `${colorizedMessage}${OPTIONS.reset}`
+  if (options.length > 0) {
+    colorizedMessage = `${colorizedMessage}${OPTIONS.reset}`;
   }
 
   return colorizedMessage;
-}
+};
 
 export default colorize;
