@@ -21,3 +21,4 @@ files
 .prettier.json
 tsconfig.json
 tsconfig.test.json
+jest.config.ts
