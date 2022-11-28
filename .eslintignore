@@ -1,0 +1,11 @@
+# Installed NodeJS packages
+node_modules
+
+# JetBrains IDE files
+.idea
+
+# Hooks
+.husky
+
+# Build
+lib
