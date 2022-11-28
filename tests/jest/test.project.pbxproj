@@ -1,0 +1,972 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002B6898D8CC4EEF982465EF /* help.svg in Resources */ = {isa = PBXBuildFile; fileRef = C3E88AD733364223800D96E4 /* help.svg */; };
+		00E356F31AD99517003FC87E /* DIVESOFTAPPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DIVESOFTAPPTests.m */; };
+		06FA4137EFFF41ABBC370E8A /* emoticon_sad_outline.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4F9F6BC4F1104C479050BEE8 /* emoticon_sad_outline.svg */; };
+		084E7E8277884B66BEC6834A /* arrowright.svg in Resources */ = {isa = PBXBuildFile; fileRef = 6387D98364544416B89DF412 /* arrowright.svg */; };
+		10ECA5EF855D4C65A6EBE470 /* tank.svg in Resources */ = {isa = PBXBuildFile; fileRef = 05646895508C45C7847D417B /* tank.svg */; };
+		120539BBC1C749A1A98D2664 /* manuals.svg in Resources */ = {isa = PBXBuildFile; fileRef = 1C647C36D22040C78376FFD4 /* manuals.svg */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		182B575171D541E0BA8B3271 /* print.svg in Resources */ = {isa = PBXBuildFile; fileRef = C82801050FBE449AAC5BED9C /* print.svg */; };
+		1B4DB7AB4D284AC7A4BD4A66 /* divesoft_textlogo_white.png in Resources */ = {isa = PBXBuildFile; fileRef = AC24D4A11A6748778439141E /* divesoft_textlogo_white.png */; };
+		1C833BB8842C4BCEAA68FB6B /* wind.svg in Resources */ = {isa = PBXBuildFile; fileRef = 181E8E50519B43F9A6EC917E /* wind.svg */; };
+		20337EA26D424071BB12EBF1 /* trips.svg in Resources */ = {isa = PBXBuildFile; fileRef = 781A92047D674F278FE81D22 /* trips.svg */; };
+		2097F9D859F345399B54D119 /* arrowleft.svg in Resources */ = {isa = PBXBuildFile; fileRef = DA67D343C24845C3AA7D6F4B /* arrowleft.svg */; };
+		2700333A6924808624031F38 /* libPods-DIVESOFTAPP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11ECB40957F56375F977BFF2 /* libPods-DIVESOFTAPP.a */; };
+		3145F7AC45994582B7D00FDC /* history.svg in Resources */ = {isa = PBXBuildFile; fileRef = B38E21DB5DA9452C94382CA8 /* history.svg */; };
+		36BEBE74DEEE4D108628CE46 /* eye.svg in Resources */ = {isa = PBXBuildFile; fileRef = 0FEBD28C4A824A66ACF5B3D5 /* eye.svg */; };
+		39272C7A94440112E6E0D52A /* libPods-DIVESOFTAPP-DIVESOFTAPPTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2B801030A778B61005A710 /* libPods-DIVESOFTAPP-DIVESOFTAPPTests.a */; };
+		3BC1DFC492934C55A70AD877 /* arrow_down.svg in Resources */ = {isa = PBXBuildFile; fileRef = EE939CCA52C843D3BC724D51 /* arrow_down.svg */; };
+		3E83A1BDF3584C95BBCA9C97 /* checkmark_circle_outline.svg in Resources */ = {isa = PBXBuildFile; fileRef = 56014731BA9B49B8B9492C18 /* checkmark_circle_outline.svg */; };
+		4FACBD7BB6394D56903047D0 /* bluetooth_disabled.svg in Resources */ = {isa = PBXBuildFile; fileRef = 7DB951F1EDA54DB7B474241D /* bluetooth_disabled.svg */; };
+		602914FA5581467D9CBC0408 /* location_on.svg in Resources */ = {isa = PBXBuildFile; fileRef = E6CC4C43C6884943A4B28A36 /* location_on.svg */; };
+		61944BE863F14D3F8104566A /* tick-box.svg in Resources */ = {isa = PBXBuildFile; fileRef = CBF1BD4D9ABE4CA4BA7E397C /* tick-box.svg */; };
+		61C770540B0C41689BB43AAB /* menu.svg in Resources */ = {isa = PBXBuildFile; fileRef = E5976EBE23724E06864CCCC8 /* menu.svg */; };
+		679E241CF4FF4612B26DBEEA /* ascent.svg in Resources */ = {isa = PBXBuildFile; fileRef = AFD576BF609D4958AB0CD1D9 /* ascent.svg */; };
+		69CC5CFA12374C2CBDB0E6F2 /* Corridor_Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7375774E038D4B53AD202FE7 /* Corridor_Regular.otf */; };
+		6C97BD4D51874542A2FC8567 /* refresh.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3470706EC6E744CC92EB580D /* refresh.svg */; };
+		6F019C56A358426FA3A5A63D /* clipboard_list.svg in Resources */ = {isa = PBXBuildFile; fileRef = 6A083D03688C4CF09C0738D8 /* clipboard_list.svg */; };
+		736772F618BB45FFA062B8E6 /* plus_circle.svg in Resources */ = {isa = PBXBuildFile; fileRef = 580C0431C28843178835FEE1 /* plus_circle.svg */; };
+		756E77FD143146528A073D27 /* close_circle_outline.svg in Resources */ = {isa = PBXBuildFile; fileRef = 43972CF18C9C45C588A512E2 /* close_circle_outline.svg */; };
+		76BEED475F654D1C96D9CDC4 /* bluetooth_searching.svg in Resources */ = {isa = PBXBuildFile; fileRef = 82F23127821F4AB3BA62B38B /* bluetooth_searching.svg */; };
+		775A3859578343BA89280146 /* stopwatch.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2063767D8C6542D19F8E027C /* stopwatch.svg */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		89471E0829DB4D9DB09946E9 /* arrow_right.svg in Resources */ = {isa = PBXBuildFile; fileRef = 86AEFFD65B334F51BAA26086 /* arrow_right.svg */; };
+		8E5A62FFF0D844CB8E9EAB4C /* list_ol.svg in Resources */ = {isa = PBXBuildFile; fileRef = 730C666ABB8A4BFA970397FD /* list_ol.svg */; };
+		90C6F8CA065A4C6D912340EE /* divesoft_app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C5480BDD0F144030896328BF /* divesoft_app_icon.png */; };
+		91677C4B93DE448999E079CF /* share.svg in Resources */ = {isa = PBXBuildFile; fileRef = C60A693FD21E46BBA04A0A55 /* share.svg */; };
+		95DCCA4D6C7C40CB9EA7DCF0 /* divesoft_splashscreen_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D4EEEA89150458C97EE4E21 /* divesoft_splashscreen_icon.png */; };
+		9D79C13C02E044E8BFD798D8 /* checklist.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3D0BDFB2A6624228B6F83387 /* checklist.svg */; };
+		9D7D52FEFAC54F3690A1F97B /* dives.svg in Resources */ = {isa = PBXBuildFile; fileRef = E1C70C3A88C649F08E9DED9D /* dives.svg */; };
+		A67B2D92575747BFAE9D9B89 /* upload.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5FF5C8B85DF5470298ECE3E0 /* upload.svg */; };
+		A6F1AE517C7A410584314BA2 /* Corridor_Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85988212A54944DBB598BDEA /* Corridor_Bold.otf */; };
+		A80D7364924448C996B2B6BF /* arrow_left.svg in Resources */ = {isa = PBXBuildFile; fileRef = 835FF0D242E14D198753DF43 /* arrow_left.svg */; };
+		AED04D8A476949CC809B4C0E /* diving_scuba_tank.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4A3F611A718A45DF87AF967C /* diving_scuba_tank.svg */; };
+		AEF0EE7ACCD640BE9AB7A60D /* chart_bell_curve.svg in Resources */ = {isa = PBXBuildFile; fileRef = 16DC7C66F028489F8B8217E3 /* chart_bell_curve.svg */; };
+		B2CA6360DF97461DB8092ED0 /* pointer_arrow.svg in Resources */ = {isa = PBXBuildFile; fileRef = D41131ED5E914B078E8B809A /* pointer_arrow.svg */; };
+		B60E0CADCF2545EEA8F13393 /* upload_cloud.svg in Resources */ = {isa = PBXBuildFile; fileRef = 33F3CC276A104AB09DFA419F /* upload_cloud.svg */; };
+		B60E44155D1B48928C3F16B2 /* arrowdown.svg in Resources */ = {isa = PBXBuildFile; fileRef = 9E009D9B8731434BA5916C23 /* arrowdown.svg */; };
+		B8A3E8C9421141218E8DC841 /* check.svg in Resources */ = {isa = PBXBuildFile; fileRef = 9F04269181B746A28632FA61 /* check.svg */; };
+		B8F010A7E0614356AFB9D93C /* close.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3B30D6F6D9594BA58952CF51 /* close.svg */; };
+		B9C2630245754E4799F70A46 /* no_change.svg in Resources */ = {isa = PBXBuildFile; fileRef = 0A6D5F813FEE4DD496FA1E68 /* no_change.svg */; };
+		BB190C6EC5B64A0A9CE79F53 /* mix.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8DECDACD8BE54B33B7230057 /* mix.svg */; };
+		BB2A703E0DBC41FB9C42F508 /* arrowup.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8545C062FE484572832DCF81 /* arrowup.svg */; };
+		C12E678D197A4D7DBDFA03F1 /* todos.svg in Resources */ = {isa = PBXBuildFile; fileRef = 6615278B1E084E0BA58FDFC4 /* todos.svg */; };
+		C2CB67FD5196441F9ECB7575 /* arrow_up.svg in Resources */ = {isa = PBXBuildFile; fileRef = 63F773910D0A45ECBCF458A4 /* arrow_up.svg */; };
+		C7E6A85B92784017A77D1258 /* time.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8331D8880A6A4B92BE85E670 /* time.svg */; };
+		C8BA0FC2CC9A420C8F654DAB /* gps_fixed.svg in Resources */ = {isa = PBXBuildFile; fileRef = FB5A1ECE0A5D4F759727E4D0 /* gps_fixed.svg */; };
+		CDCEB8D8A97C406F9E52717F /* settings.svg in Resources */ = {isa = PBXBuildFile; fileRef = BC84E881E3274C9DA28B7AFA /* settings.svg */; };
+		CF9765D36E5E424ABD4C1668 /* search.svg in Resources */ = {isa = PBXBuildFile; fileRef = 7B887DFB7E184966AD3FB6AE /* search.svg */; };
+		D221539D0F694E4ABBFB4692 /* nut.svg in Resources */ = {isa = PBXBuildFile; fileRef = 6DED00149F5645A895C2D899 /* nut.svg */; };
+		D36B401511F1406FB212AC38 /* logout.svg in Resources */ = {isa = PBXBuildFile; fileRef = E0A1A2667ADC446C8861152E /* logout.svg */; };
+		DC4DBD9AC231453EA47FC352 /* info.svg in Resources */ = {isa = PBXBuildFile; fileRef = B346BB9DC15747E1B6647446 /* info.svg */; };
+		E01E55ADC2BD4131B924F246 /* descent.svg in Resources */ = {isa = PBXBuildFile; fileRef = 1D95D85930C846F09278FBD5 /* descent.svg */; };
+		E2824C29F64642B8A503EBBB /* divesoft_login_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB5AC7E785794839BAA23E92 /* divesoft_login_background.jpg */; };
+		F09CF74334FF41A98393E9BF /* edit.svg in Resources */ = {isa = PBXBuildFile; fileRef = 608D10994F8848789FC7C1C3 /* edit.svg */; };
+		F2C14D0861024303A5A76006 /* assemblies.svg in Resources */ = {isa = PBXBuildFile; fileRef = 6AD10E9392924B22A298F1D1 /* assemblies.svg */; };
+		F3D02EF442954F6F86C0BEAE /* alert_triangle.svg in Resources */ = {isa = PBXBuildFile; fileRef = 05831A5175C34CBE88DBD87C /* alert_triangle.svg */; };
+		F529A117F4F240F8BD71AD0E /* options.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3BAE01A3E14F43FC9D5F860A /* options.svg */; };
+		F58163DB398042FE8BB93696 /* devices.svg in Resources */ = {isa = PBXBuildFile; fileRef = 88CED905B44740F0B7BC9D09 /* devices.svg */; };
+		F5BB69AD6AE74A0AB8655BB8 /* planner.svg in Resources */ = {isa = PBXBuildFile; fileRef = 65957B01D6004D119C824A12 /* planner.svg */; };
+		F673F0FD0FE1498BA29219C6 /* bluetooth.svg in Resources */ = {isa = PBXBuildFile; fileRef = ACDDC64A4B7C4E899D250ECE /* bluetooth.svg */; };
+		F9B6AAB16FF64F62852C1B95 /* developer_board.svg in Resources */ = {isa = PBXBuildFile; fileRef = 641BD50B7C3B42B4B52F8770 /* developer_board.svg */; };
+		FDC4B36E8A254430BB5FA4E3 /* wifi_strength_lock_outline.svg in Resources */ = {isa = PBXBuildFile; fileRef = DC2E87E5285645ED80AA56A6 /* wifi_strength_lock_outline.svg */; };
+		FFF7F6C4994A4D16A7AB211F /* trash.svg in Resources */ = {isa = PBXBuildFile; fileRef = 84418A6E2FBE4CBC9ADA76B1 /* trash.svg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = DIVESOFTAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* DIVESOFTAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DIVESOFTAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* DIVESOFTAPPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIVESOFTAPPTests.m; sourceTree = "<group>"; };
+		05646895508C45C7847D417B /* tank.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = tank.svg; path = ../assets/images/icons/tank.svg; sourceTree = "<group>"; };
+		05831A5175C34CBE88DBD87C /* alert_triangle.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = alert_triangle.svg; path = ../assets/images/icons/alert_triangle.svg; sourceTree = "<group>"; };
+		0A6D5F813FEE4DD496FA1E68 /* no_change.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = no_change.svg; path = ../assets/images/icons/no_change.svg; sourceTree = "<group>"; };
+		0FEBD28C4A824A66ACF5B3D5 /* eye.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = eye.svg; path = ../assets/images/icons/eye.svg; sourceTree = "<group>"; };
+		11ECB40957F56375F977BFF2 /* libPods-DIVESOFTAPP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DIVESOFTAPP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* DIVESOFTAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DIVESOFTAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DIVESOFTAPP/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = DIVESOFTAPP/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = DIVESOFTAPP/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DIVESOFTAPP/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DIVESOFTAPP/main.m; sourceTree = "<group>"; };
+		16DC7C66F028489F8B8217E3 /* chart_bell_curve.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = chart_bell_curve.svg; path = ../assets/images/icons/chart_bell_curve.svg; sourceTree = "<group>"; };
+		181E8E50519B43F9A6EC917E /* wind.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = wind.svg; path = ../assets/images/icons/wind.svg; sourceTree = "<group>"; };
+		1C647C36D22040C78376FFD4 /* manuals.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = manuals.svg; path = ../assets/images/icons/manuals.svg; sourceTree = "<group>"; };
+		1D95D85930C846F09278FBD5 /* descent.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = descent.svg; path = ../assets/images/icons/descent.svg; sourceTree = "<group>"; };
+		2063767D8C6542D19F8E027C /* stopwatch.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = stopwatch.svg; path = ../assets/images/icons/stopwatch.svg; sourceTree = "<group>"; };
+		2BA62A6A27566E050015C443 /* DIVESOFTAPP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = DIVESOFTAPP.entitlements; path = DIVESOFTAPP/DIVESOFTAPP.entitlements; sourceTree = "<group>"; };
+		2D4EEEA89150458C97EE4E21 /* divesoft_splashscreen_icon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = divesoft_splashscreen_icon.png; path = ../assets/images/divesoft_splashscreen_icon.png; sourceTree = "<group>"; };
+		33F3CC276A104AB09DFA419F /* upload_cloud.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = upload_cloud.svg; path = ../assets/images/icons/upload_cloud.svg; sourceTree = "<group>"; };
+		3470706EC6E744CC92EB580D /* refresh.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = refresh.svg; path = ../assets/images/icons/refresh.svg; sourceTree = "<group>"; };
+		3B30D6F6D9594BA58952CF51 /* close.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = close.svg; path = ../assets/images/icons/close.svg; sourceTree = "<group>"; };
+		3BAE01A3E14F43FC9D5F860A /* options.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = options.svg; path = ../assets/images/icons/options.svg; sourceTree = "<group>"; };
+		3D0BDFB2A6624228B6F83387 /* checklist.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = checklist.svg; path = ../assets/images/icons/checklist.svg; sourceTree = "<group>"; };
+		43972CF18C9C45C588A512E2 /* close_circle_outline.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = close_circle_outline.svg; path = ../assets/images/icons/close_circle_outline.svg; sourceTree = "<group>"; };
+		4A3F611A718A45DF87AF967C /* diving_scuba_tank.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = diving_scuba_tank.svg; path = ../assets/images/icons/diving_scuba_tank.svg; sourceTree = "<group>"; };
+		4F9F6BC4F1104C479050BEE8 /* emoticon_sad_outline.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = emoticon_sad_outline.svg; path = ../assets/images/icons/emoticon_sad_outline.svg; sourceTree = "<group>"; };
+		524F53F9F0B3EFFD511D607A /* Pods-DIVESOFTAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DIVESOFTAPP.debug.xcconfig"; path = "Target Support Files/Pods-DIVESOFTAPP/Pods-DIVESOFTAPP.debug.xcconfig"; sourceTree = "<group>"; };
+		56014731BA9B49B8B9492C18 /* checkmark_circle_outline.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = checkmark_circle_outline.svg; path = ../assets/images/icons/checkmark_circle_outline.svg; sourceTree = "<group>"; };
+		56DAF6395D2E2C2A94AA5EB5 /* Pods-DIVESOFTAPP-DIVESOFTAPPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DIVESOFTAPP-DIVESOFTAPPTests.release.xcconfig"; path = "Target Support Files/Pods-DIVESOFTAPP-DIVESOFTAPPTests/Pods-DIVESOFTAPP-DIVESOFTAPPTests.release.xcconfig"; sourceTree = "<group>"; };
+		580C0431C28843178835FEE1 /* plus_circle.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = plus_circle.svg; path = ../assets/images/icons/plus_circle.svg; sourceTree = "<group>"; };
+		5FF5C8B85DF5470298ECE3E0 /* upload.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = upload.svg; path = ../assets/images/icons/upload.svg; sourceTree = "<group>"; };
+		608D10994F8848789FC7C1C3 /* edit.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = edit.svg; path = ../assets/images/icons/edit.svg; sourceTree = "<group>"; };
+		6387D98364544416B89DF412 /* arrowright.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = arrowright.svg; path = ../assets/images/icons/arrowright.svg; sourceTree = "<group>"; };
+		63F773910D0A45ECBCF458A4 /* arrow_up.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = arrow_up.svg; path = ../assets/images/icons/arrow_up.svg; sourceTree = "<group>"; };
+		641BD50B7C3B42B4B52F8770 /* developer_board.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = developer_board.svg; path = ../assets/images/icons/developer_board.svg; sourceTree = "<group>"; };
+		656262670704954AD520BD32 /* Pods-DIVESOFTAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DIVESOFTAPP.release.xcconfig"; path = "Target Support Files/Pods-DIVESOFTAPP/Pods-DIVESOFTAPP.release.xcconfig"; sourceTree = "<group>"; };
+		65957B01D6004D119C824A12 /* planner.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = planner.svg; path = ../assets/images/icons/planner.svg; sourceTree = "<group>"; };
+		6615278B1E084E0BA58FDFC4 /* todos.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = todos.svg; path = ../assets/images/icons/todos.svg; sourceTree = "<group>"; };
+		6A083D03688C4CF09C0738D8 /* clipboard_list.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = clipboard_list.svg; path = ../assets/images/icons/clipboard_list.svg; sourceTree = "<group>"; };
+		6AD10E9392924B22A298F1D1 /* assemblies.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = assemblies.svg; path = ../assets/images/icons/assemblies.svg; sourceTree = "<group>"; };
+		6DED00149F5645A895C2D899 /* nut.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = nut.svg; path = ../assets/images/icons/nut.svg; sourceTree = "<group>"; };
+		6E2B801030A778B61005A710 /* libPods-DIVESOFTAPP-DIVESOFTAPPTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DIVESOFTAPP-DIVESOFTAPPTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		730C666ABB8A4BFA970397FD /* list_ol.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = list_ol.svg; path = ../assets/images/icons/list_ol.svg; sourceTree = "<group>"; };
+		7375774E038D4B53AD202FE7 /* Corridor_Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Corridor_Regular.otf; path = ../assets/fonts/Corridor_Regular.otf; sourceTree = "<group>"; };
+		781A92047D674F278FE81D22 /* trips.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = trips.svg; path = ../assets/images/icons/trips.svg; sourceTree = "<group>"; };
+		7B887DFB7E184966AD3FB6AE /* search.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = search.svg; path = ../assets/images/icons/search.svg; sourceTree = "<group>"; };
+		7DB951F1EDA54DB7B474241D /* bluetooth_disabled.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = bluetooth_disabled.svg; path = ../assets/images/icons/bluetooth_disabled.svg; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = DIVESOFTAPP/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82F23127821F4AB3BA62B38B /* bluetooth_searching.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = bluetooth_searching.svg; path = ../assets/images/icons/bluetooth_searching.svg; sourceTree = "<group>"; };
+		8331D8880A6A4B92BE85E670 /* time.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = time.svg; path = ../assets/images/icons/time.svg; sourceTree = "<group>"; };
+		835FF0D242E14D198753DF43 /* arrow_left.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = arrow_left.svg; path = ../assets/images/icons/arrow_left.svg; sourceTree = "<group>"; };
+		84418A6E2FBE4CBC9ADA76B1 /* trash.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = trash.svg; path = ../assets/images/icons/trash.svg; sourceTree = "<group>"; };
+		8545C062FE484572832DCF81 /* arrowup.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = arrowup.svg; path = ../assets/images/icons/arrowup.svg; sourceTree = "<group>"; };
+		85988212A54944DBB598BDEA /* Corridor_Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Corridor_Bold.otf; path = ../assets/fonts/Corridor_Bold.otf; sourceTree = "<group>"; };
+		86AEFFD65B334F51BAA26086 /* arrow_right.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = arrow_right.svg; path = ../assets/images/icons/arrow_right.svg; sourceTree = "<group>"; };
+		88CED905B44740F0B7BC9D09 /* devices.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = devices.svg; path = ../assets/images/icons/devices.svg; sourceTree = "<group>"; };
+		8DECDACD8BE54B33B7230057 /* mix.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = mix.svg; path = ../assets/images/icons/mix.svg; sourceTree = "<group>"; };
+		9E009D9B8731434BA5916C23 /* arrowdown.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = arrowdown.svg; path = ../assets/images/icons/arrowdown.svg; sourceTree = "<group>"; };
+		9F04269181B746A28632FA61 /* check.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = check.svg; path = ../assets/images/icons/check.svg; sourceTree = "<group>"; };
+		AC24D4A11A6748778439141E /* divesoft_textlogo_white.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = divesoft_textlogo_white.png; path = ../assets/images/divesoft_textlogo_white.png; sourceTree = "<group>"; };
+		ACDDC64A4B7C4E899D250ECE /* bluetooth.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = bluetooth.svg; path = ../assets/images/icons/bluetooth.svg; sourceTree = "<group>"; };
+		AFD576BF609D4958AB0CD1D9 /* ascent.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ascent.svg; path = ../assets/images/icons/ascent.svg; sourceTree = "<group>"; };
+		B346BB9DC15747E1B6647446 /* info.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = info.svg; path = ../assets/images/icons/info.svg; sourceTree = "<group>"; };
+		B38E21DB5DA9452C94382CA8 /* history.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = history.svg; path = ../assets/images/icons/history.svg; sourceTree = "<group>"; };
+		BC84E881E3274C9DA28B7AFA /* settings.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = settings.svg; path = ../assets/images/icons/settings.svg; sourceTree = "<group>"; };
+		C3E88AD733364223800D96E4 /* help.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = help.svg; path = ../assets/images/icons/help.svg; sourceTree = "<group>"; };
+		C5480BDD0F144030896328BF /* divesoft_app_icon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = divesoft_app_icon.png; path = ../assets/images/divesoft_app_icon.png; sourceTree = "<group>"; };
+		C60A693FD21E46BBA04A0A55 /* share.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = share.svg; path = ../assets/images/icons/share.svg; sourceTree = "<group>"; };
+		C82801050FBE449AAC5BED9C /* print.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = print.svg; path = ../assets/images/icons/print.svg; sourceTree = "<group>"; };
+		CBF1BD4D9ABE4CA4BA7E397C /* tick-box.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "tick-box.svg"; path = "../assets/images/icons/tick-box.svg"; sourceTree = "<group>"; };
+		D41131ED5E914B078E8B809A /* pointer_arrow.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = pointer_arrow.svg; path = ../assets/images/icons/pointer_arrow.svg; sourceTree = "<group>"; };
+		DA67D343C24845C3AA7D6F4B /* arrowleft.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = arrowleft.svg; path = ../assets/images/icons/arrowleft.svg; sourceTree = "<group>"; };
+		DC2E87E5285645ED80AA56A6 /* wifi_strength_lock_outline.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = wifi_strength_lock_outline.svg; path = ../assets/images/icons/wifi_strength_lock_outline.svg; sourceTree = "<group>"; };
+		E0A1A2667ADC446C8861152E /* logout.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = logout.svg; path = ../assets/images/icons/logout.svg; sourceTree = "<group>"; };
+		E1C70C3A88C649F08E9DED9D /* dives.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = dives.svg; path = ../assets/images/icons/dives.svg; sourceTree = "<group>"; };
+		E5976EBE23724E06864CCCC8 /* menu.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = menu.svg; path = ../assets/images/icons/menu.svg; sourceTree = "<group>"; };
+		E6CC4C43C6884943A4B28A36 /* location_on.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = location_on.svg; path = ../assets/images/icons/location_on.svg; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EE939CCA52C843D3BC724D51 /* arrow_down.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = arrow_down.svg; path = ../assets/images/icons/arrow_down.svg; sourceTree = "<group>"; };
+		F38841E46D0B575C9A641D62 /* Pods-DIVESOFTAPP-DIVESOFTAPPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DIVESOFTAPP-DIVESOFTAPPTests.debug.xcconfig"; path = "Target Support Files/Pods-DIVESOFTAPP-DIVESOFTAPPTests/Pods-DIVESOFTAPP-DIVESOFTAPPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB5A1ECE0A5D4F759727E4D0 /* gps_fixed.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = gps_fixed.svg; path = ../assets/images/icons/gps_fixed.svg; sourceTree = "<group>"; };
+		FB5AC7E785794839BAA23E92 /* divesoft_login_background.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = divesoft_login_background.jpg; path = ../assets/images/divesoft_login_background.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39272C7A94440112E6E0D52A /* libPods-DIVESOFTAPP-DIVESOFTAPPTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2700333A6924808624031F38 /* libPods-DIVESOFTAPP.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* DIVESOFTAPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* DIVESOFTAPPTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = DIVESOFTAPPTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* DIVESOFTAPP */ = {
+			isa = PBXGroup;
+			children = (
+				2BA62A6A27566E050015C443 /* DIVESOFTAPP.entitlements */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = DIVESOFTAPP;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				11ECB40957F56375F977BFF2 /* libPods-DIVESOFTAPP.a */,
+				6E2B801030A778B61005A710 /* libPods-DIVESOFTAPP-DIVESOFTAPPTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A922ADBA6C442EFB3C06501 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				85988212A54944DBB598BDEA /* Corridor_Bold.otf */,
+				7375774E038D4B53AD202FE7 /* Corridor_Regular.otf */,
+				C5480BDD0F144030896328BF /* divesoft_app_icon.png */,
+				FB5AC7E785794839BAA23E92 /* divesoft_login_background.jpg */,
+				2D4EEEA89150458C97EE4E21 /* divesoft_splashscreen_icon.png */,
+				AC24D4A11A6748778439141E /* divesoft_textlogo_white.png */,
+				6AD10E9392924B22A298F1D1 /* assemblies.svg */,
+				88CED905B44740F0B7BC9D09 /* devices.svg */,
+				E1C70C3A88C649F08E9DED9D /* dives.svg */,
+				BC84E881E3274C9DA28B7AFA /* settings.svg */,
+				6615278B1E084E0BA58FDFC4 /* todos.svg */,
+				781A92047D674F278FE81D22 /* trips.svg */,
+				05831A5175C34CBE88DBD87C /* alert_triangle.svg */,
+				EE939CCA52C843D3BC724D51 /* arrow_down.svg */,
+				835FF0D242E14D198753DF43 /* arrow_left.svg */,
+				86AEFFD65B334F51BAA26086 /* arrow_right.svg */,
+				63F773910D0A45ECBCF458A4 /* arrow_up.svg */,
+				9E009D9B8731434BA5916C23 /* arrowdown.svg */,
+				DA67D343C24845C3AA7D6F4B /* arrowleft.svg */,
+				6387D98364544416B89DF412 /* arrowright.svg */,
+				8545C062FE484572832DCF81 /* arrowup.svg */,
+				AFD576BF609D4958AB0CD1D9 /* ascent.svg */,
+				7DB951F1EDA54DB7B474241D /* bluetooth_disabled.svg */,
+				82F23127821F4AB3BA62B38B /* bluetooth_searching.svg */,
+				ACDDC64A4B7C4E899D250ECE /* bluetooth.svg */,
+				16DC7C66F028489F8B8217E3 /* chart_bell_curve.svg */,
+				9F04269181B746A28632FA61 /* check.svg */,
+				3D0BDFB2A6624228B6F83387 /* checklist.svg */,
+				56014731BA9B49B8B9492C18 /* checkmark_circle_outline.svg */,
+				6A083D03688C4CF09C0738D8 /* clipboard_list.svg */,
+				43972CF18C9C45C588A512E2 /* close_circle_outline.svg */,
+				3B30D6F6D9594BA58952CF51 /* close.svg */,
+				1D95D85930C846F09278FBD5 /* descent.svg */,
+				641BD50B7C3B42B4B52F8770 /* developer_board.svg */,
+				4A3F611A718A45DF87AF967C /* diving_scuba_tank.svg */,
+				608D10994F8848789FC7C1C3 /* edit.svg */,
+				4F9F6BC4F1104C479050BEE8 /* emoticon_sad_outline.svg */,
+				0FEBD28C4A824A66ACF5B3D5 /* eye.svg */,
+				FB5A1ECE0A5D4F759727E4D0 /* gps_fixed.svg */,
+				C3E88AD733364223800D96E4 /* help.svg */,
+				B38E21DB5DA9452C94382CA8 /* history.svg */,
+				B346BB9DC15747E1B6647446 /* info.svg */,
+				730C666ABB8A4BFA970397FD /* list_ol.svg */,
+				E6CC4C43C6884943A4B28A36 /* location_on.svg */,
+				E0A1A2667ADC446C8861152E /* logout.svg */,
+				1C647C36D22040C78376FFD4 /* manuals.svg */,
+				E5976EBE23724E06864CCCC8 /* menu.svg */,
+				8DECDACD8BE54B33B7230057 /* mix.svg */,
+				0A6D5F813FEE4DD496FA1E68 /* no_change.svg */,
+				6DED00149F5645A895C2D899 /* nut.svg */,
+				3BAE01A3E14F43FC9D5F860A /* options.svg */,
+				65957B01D6004D119C824A12 /* planner.svg */,
+				580C0431C28843178835FEE1 /* plus_circle.svg */,
+				D41131ED5E914B078E8B809A /* pointer_arrow.svg */,
+				C82801050FBE449AAC5BED9C /* print.svg */,
+				3470706EC6E744CC92EB580D /* refresh.svg */,
+				7B887DFB7E184966AD3FB6AE /* search.svg */,
+				C60A693FD21E46BBA04A0A55 /* share.svg */,
+				2063767D8C6542D19F8E027C /* stopwatch.svg */,
+				05646895508C45C7847D417B /* tank.svg */,
+				CBF1BD4D9ABE4CA4BA7E397C /* tick-box.svg */,
+				8331D8880A6A4B92BE85E670 /* time.svg */,
+				84418A6E2FBE4CBC9ADA76B1 /* trash.svg */,
+				33F3CC276A104AB09DFA419F /* upload_cloud.svg */,
+				5FF5C8B85DF5470298ECE3E0 /* upload.svg */,
+				DC2E87E5285645ED80AA56A6 /* wifi_strength_lock_outline.svg */,
+				181E8E50519B43F9A6EC917E /* wind.svg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		741B898B310F35F0B6614FE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				524F53F9F0B3EFFD511D607A /* Pods-DIVESOFTAPP.debug.xcconfig */,
+				656262670704954AD520BD32 /* Pods-DIVESOFTAPP.release.xcconfig */,
+				F38841E46D0B575C9A641D62 /* Pods-DIVESOFTAPP-DIVESOFTAPPTests.debug.xcconfig */,
+				56DAF6395D2E2C2A94AA5EB5 /* Pods-DIVESOFTAPP-DIVESOFTAPPTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* DIVESOFTAPP */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* DIVESOFTAPPTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				741B898B310F35F0B6614FE1 /* Pods */,
+				5A922ADBA6C442EFB3C06501 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* DIVESOFTAPP.app */,
+				00E356EE1AD99517003FC87E /* DIVESOFTAPPTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* DIVESOFTAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "DIVESOFTAPPTests" */;
+			buildPhases = (
+				67970BC886B1441F81D1C75B /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				FDC5B45FEB7D497AD56F2A14 /* [CP] Embed Pods Frameworks */,
+				1731C2B424E9ABD0B10E0691 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = DIVESOFTAPPTests;
+			productName = DIVESOFTAPPTests;
+			productReference = 00E356EE1AD99517003FC87E /* DIVESOFTAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* DIVESOFTAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DIVESOFTAPP" */;
+			buildPhases = (
+				0CD2C10CC03E5D06BD9AEB3D /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				A29477DCCA55D94549265C27 /* [CP] Embed Pods Frameworks */,
+				7C76C7EC01F2F06D799CAC71 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DIVESOFTAPP;
+			productName = DIVESOFTAPP;
+			productReference = 13B07F961A680F5B00A75B9A /* DIVESOFTAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "DIVESOFTAPP" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* DIVESOFTAPP */,
+				00E356ED1AD99517003FC87E /* DIVESOFTAPPTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				A6F1AE517C7A410584314BA2 /* Corridor_Bold.otf in Resources */,
+				69CC5CFA12374C2CBDB0E6F2 /* Corridor_Regular.otf in Resources */,
+				90C6F8CA065A4C6D912340EE /* divesoft_app_icon.png in Resources */,
+				E2824C29F64642B8A503EBBB /* divesoft_login_background.jpg in Resources */,
+				95DCCA4D6C7C40CB9EA7DCF0 /* divesoft_splashscreen_icon.png in Resources */,
+				1B4DB7AB4D284AC7A4BD4A66 /* divesoft_textlogo_white.png in Resources */,
+				F2C14D0861024303A5A76006 /* assemblies.svg in Resources */,
+				F58163DB398042FE8BB93696 /* devices.svg in Resources */,
+				9D7D52FEFAC54F3690A1F97B /* dives.svg in Resources */,
+				CDCEB8D8A97C406F9E52717F /* settings.svg in Resources */,
+				C12E678D197A4D7DBDFA03F1 /* todos.svg in Resources */,
+				20337EA26D424071BB12EBF1 /* trips.svg in Resources */,
+				F3D02EF442954F6F86C0BEAE /* alert_triangle.svg in Resources */,
+				3BC1DFC492934C55A70AD877 /* arrow_down.svg in Resources */,
+				A80D7364924448C996B2B6BF /* arrow_left.svg in Resources */,
+				89471E0829DB4D9DB09946E9 /* arrow_right.svg in Resources */,
+				C2CB67FD5196441F9ECB7575 /* arrow_up.svg in Resources */,
+				B60E44155D1B48928C3F16B2 /* arrowdown.svg in Resources */,
+				2097F9D859F345399B54D119 /* arrowleft.svg in Resources */,
+				084E7E8277884B66BEC6834A /* arrowright.svg in Resources */,
+				BB2A703E0DBC41FB9C42F508 /* arrowup.svg in Resources */,
+				679E241CF4FF4612B26DBEEA /* ascent.svg in Resources */,
+				4FACBD7BB6394D56903047D0 /* bluetooth_disabled.svg in Resources */,
+				76BEED475F654D1C96D9CDC4 /* bluetooth_searching.svg in Resources */,
+				F673F0FD0FE1498BA29219C6 /* bluetooth.svg in Resources */,
+				AEF0EE7ACCD640BE9AB7A60D /* chart_bell_curve.svg in Resources */,
+				B8A3E8C9421141218E8DC841 /* check.svg in Resources */,
+				9D79C13C02E044E8BFD798D8 /* checklist.svg in Resources */,
+				3E83A1BDF3584C95BBCA9C97 /* checkmark_circle_outline.svg in Resources */,
+				6F019C56A358426FA3A5A63D /* clipboard_list.svg in Resources */,
+				756E77FD143146528A073D27 /* close_circle_outline.svg in Resources */,
+				B8F010A7E0614356AFB9D93C /* close.svg in Resources */,
+				E01E55ADC2BD4131B924F246 /* descent.svg in Resources */,
+				F9B6AAB16FF64F62852C1B95 /* developer_board.svg in Resources */,
+				AED04D8A476949CC809B4C0E /* diving_scuba_tank.svg in Resources */,
+				F09CF74334FF41A98393E9BF /* edit.svg in Resources */,
+				06FA4137EFFF41ABBC370E8A /* emoticon_sad_outline.svg in Resources */,
+				36BEBE74DEEE4D108628CE46 /* eye.svg in Resources */,
+				C8BA0FC2CC9A420C8F654DAB /* gps_fixed.svg in Resources */,
+				002B6898D8CC4EEF982465EF /* help.svg in Resources */,
+				3145F7AC45994582B7D00FDC /* history.svg in Resources */,
+				DC4DBD9AC231453EA47FC352 /* info.svg in Resources */,
+				8E5A62FFF0D844CB8E9EAB4C /* list_ol.svg in Resources */,
+				602914FA5581467D9CBC0408 /* location_on.svg in Resources */,
+				D36B401511F1406FB212AC38 /* logout.svg in Resources */,
+				120539BBC1C749A1A98D2664 /* manuals.svg in Resources */,
+				61C770540B0C41689BB43AAB /* menu.svg in Resources */,
+				BB190C6EC5B64A0A9CE79F53 /* mix.svg in Resources */,
+				B9C2630245754E4799F70A46 /* no_change.svg in Resources */,
+				D221539D0F694E4ABBFB4692 /* nut.svg in Resources */,
+				F529A117F4F240F8BD71AD0E /* options.svg in Resources */,
+				F5BB69AD6AE74A0AB8655BB8 /* planner.svg in Resources */,
+				736772F618BB45FFA062B8E6 /* plus_circle.svg in Resources */,
+				B2CA6360DF97461DB8092ED0 /* pointer_arrow.svg in Resources */,
+				182B575171D541E0BA8B3271 /* print.svg in Resources */,
+				6C97BD4D51874542A2FC8567 /* refresh.svg in Resources */,
+				CF9765D36E5E424ABD4C1668 /* search.svg in Resources */,
+				91677C4B93DE448999E079CF /* share.svg in Resources */,
+				775A3859578343BA89280146 /* stopwatch.svg in Resources */,
+				10ECA5EF855D4C65A6EBE470 /* tank.svg in Resources */,
+				61944BE863F14D3F8104566A /* tick-box.svg in Resources */,
+				C7E6A85B92784017A77D1258 /* time.svg in Resources */,
+				FFF7F6C4994A4D16A7AB211F /* trash.svg in Resources */,
+				B60E0CADCF2545EEA8F13393 /* upload_cloud.svg in Resources */,
+				A67B2D92575747BFAE9D9B89 /* upload.svg in Resources */,
+				FDC4B36E8A254430BB5FA4E3 /* wifi_strength_lock_outline.svg in Resources */,
+				1C833BB8842C4BCEAA68FB6B /* wind.svg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		0CD2C10CC03E5D06BD9AEB3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DIVESOFTAPP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1731C2B424E9ABD0B10E0691 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DIVESOFTAPP-DIVESOFTAPPTests/Pods-DIVESOFTAPP-DIVESOFTAPPTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DIVESOFTAPP-DIVESOFTAPPTests/Pods-DIVESOFTAPP-DIVESOFTAPPTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DIVESOFTAPP-DIVESOFTAPPTests/Pods-DIVESOFTAPP-DIVESOFTAPPTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67970BC886B1441F81D1C75B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DIVESOFTAPP-DIVESOFTAPPTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C76C7EC01F2F06D799CAC71 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DIVESOFTAPP/Pods-DIVESOFTAPP-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DIVESOFTAPP/Pods-DIVESOFTAPP-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DIVESOFTAPP/Pods-DIVESOFTAPP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A29477DCCA55D94549265C27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DIVESOFTAPP/Pods-DIVESOFTAPP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DIVESOFTAPP/Pods-DIVESOFTAPP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DIVESOFTAPP/Pods-DIVESOFTAPP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FDC5B45FEB7D497AD56F2A14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DIVESOFTAPP-DIVESOFTAPPTests/Pods-DIVESOFTAPP-DIVESOFTAPPTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DIVESOFTAPP-DIVESOFTAPPTests/Pods-DIVESOFTAPP-DIVESOFTAPPTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DIVESOFTAPP-DIVESOFTAPPTests/Pods-DIVESOFTAPP-DIVESOFTAPPTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* DIVESOFTAPPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* DIVESOFTAPP */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F38841E46D0B575C9A641D62 /* Pods-DIVESOFTAPP-DIVESOFTAPPTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DIVESOFTAPPTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.divesoft.divesoft-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DIVESOFTAPP.app/DIVESOFTAPP";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56DAF6395D2E2C2A94AA5EB5 /* Pods-DIVESOFTAPP-DIVESOFTAPPTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = DIVESOFTAPPTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.divesoft.divesoft-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DIVESOFTAPP.app/DIVESOFTAPP";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 524F53F9F0B3EFFD511D607A /* Pods-DIVESOFTAPP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = DIVESOFTAPP/DIVESOFTAPP.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E4756J3A67;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = DIVESOFTAPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4.2;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.divesoft.divesoft-app";
+				PRODUCT_NAME = DIVESOFTAPP;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 656262670704954AD520BD32 /* Pods-DIVESOFTAPP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = DIVESOFTAPP/DIVESOFTAPP.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E4756J3A67;
+				INFOPLIST_FILE = DIVESOFTAPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4.2;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.divesoft.divesoft-app";
+				PRODUCT_NAME = DIVESOFTAPP;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "DIVESOFTAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DIVESOFTAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "DIVESOFTAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
