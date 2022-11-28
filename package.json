@@ -21,7 +21,6 @@
   "author": "Tomas Gdula",
   "license": "ISC",
   "dependencies": {
-    "readline-sync": "1.4.7",
     "yargs": "17.6.2"
   },
   "devDependencies": {
