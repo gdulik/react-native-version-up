@@ -1,3 +1,5 @@
+**This package was forked from [react-native-version-up](https://github.com/gustarus/react-native-version-up)**
+
 **Please, create pull request to the project if you improve something!**
 **It will help us to create hight-quality package together.**
 
